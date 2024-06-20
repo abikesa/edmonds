@@ -73,7 +73,6 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'reproducible-research/testing/testing-exceptions';</script>
     <script src="../../_static/script.js"></script>
     <link rel="canonical" href="https://book.the-turing-way.org/reproducible-research/testing/testing-exceptions.html" />
-    <link rel="shortcut icon" href="../../_static/favicon-32x32.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Checklist for Code Testing" href="testing-checklist.html" />
@@ -165,14 +164,8 @@
   
   
   
-    
-    
-      
-    
-    
-    <img src="../../_static/logo-detail-with-text.svg" class="logo__image only-light" alt="The Turing Way - Home"/>
-    <script>document.write(`<img src="../../_static/logo-detail-with-text.svg" class="logo__image only-dark" alt="The Turing Way - Home"/>`);</script>
   
+    <p class="title logo__title">The Turing Way</p>
   
 </a></div>
         <div class="sidebar-primary-item">
@@ -192,7 +185,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../../index.html">
-                    Welcome
+                    Kenny Edonds
                 </a>
             </li>
         </ul>
@@ -1098,19 +1091,19 @@ Furthermore, there will always be an element of uncertainty and if the random nu
 For example say we have a code modelling the water levels in a reservoir over time.</p>
 <p>The result may look like this:</p>
 <figure class="align-default" id="eyeball-test1">
-<img alt="Scatter plot of water level in a reservoir measured at regular intervals over 24 hours, where level remains fairly constant." src="../../_images/eyeball-test1.jpg" />
+<img alt="Scatter plot of water level in a reservoir measured at regular intervals over 24 hours, where level remains fairly constant." src="figures/eyeball-test1.*" />
 </figure>
 <p>On a day with rain it might look like this:</p>
 <figure class="align-default" id="eyeball-test2">
-<img alt="Scatter plot of water level in a reservoir measured at regular intervals over 24 hours, where level increases steadily between 6am and 9pm before dropping slightly in the last 3-hour period." src="../../_images/eyeball-test2.jpg" />
+<img alt="Scatter plot of water level in a reservoir measured at regular intervals over 24 hours, where level increases steadily between 6am and 9pm before dropping slightly in the last 3-hour period." src="figures/eyeball-test2.*" />
 </figure>
 <p>and on a dry day it might look like this:</p>
 <figure class="align-default" id="eyeball-test3">
-<img alt="Scatter plot of water level in a reservoir measured at regular intervals over 24 hours, where level decreases steadily." src="../../_images/eyeball-test3.jpg" />
+<img alt="Scatter plot of water level in a reservoir measured at regular intervals over 24 hours, where level decreases steadily." src="figures/eyeball-test3.*" />
 </figure>
 <p>All of these outputs look very different but are valid. However, if a researcher sees a result like this:</p>
 <figure class="align-default" id="eyeball-test-error">
-<img alt="Scatter plot of water level in a reservoir measured at regular intervals over 24 hours, where fairly constant levels flank one very high measurement taken at midday." src="../../_images/eyeball-test-error.jpg" />
+<img alt="Scatter plot of water level in a reservoir measured at regular intervals over 24 hours, where fairly constant levels flank one very high measurement taken at midday." src="figures/eyeball-test-error.*" />
 </figure>
 <p>they could easily conclude there is a bug as a lake is unlikely to triple its volume and then lose it again in the space of a few hours. “Eyeballing” tests like these are time-consuming as they must be done by a human. However, the process can be partially or fully automated by creating basic “sanity checks”. For example, the water level at one time should be within, say, 10% of the water level at the previous time step. Another check could be that there are no negative values, as a lake can’t be -30% full. These sort of tests can’t cover every way something can be visibly wrong, but they are much easier to automate and will suffice for most cases.</p>
 </section>

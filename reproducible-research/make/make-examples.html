@@ -73,7 +73,6 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'reproducible-research/make/make-examples';</script>
     <script src="../../_static/script.js"></script>
     <link rel="canonical" href="https://book.the-turing-way.org/reproducible-research/make/make-examples.html" />
-    <link rel="shortcut icon" href="../../_static/favicon-32x32.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Debugging Makefiles" href="make-debugging.html" />
@@ -165,14 +164,8 @@
   
   
   
-    
-    
-      
-    
-    
-    <img src="../../_static/logo-detail-with-text.svg" class="logo__image only-light" alt="The Turing Way - Home"/>
-    <script>document.write(`<img src="../../_static/logo-detail-with-text.svg" class="logo__image only-dark" alt="The Turing Way - Home"/>`);</script>
   
+    <p class="title logo__title">The Turing Way</p>
   
 </a></div>
         <div class="sidebar-primary-item">
@@ -192,7 +185,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../../index.html">
-                    Welcome
+                    Kenny Edonds
                 </a>
             </li>
         </ul>
@@ -1144,7 +1137,7 @@ working directory in the first line has no effect on the second, and a failure
 in the second line won’t stop the third line from being executed. Therefore,
 we combine the three commands in a single recipe above.</p>
 <p>This is what the dependency tree looks like for this Makefile:</p>
-<p><img alt="DAG for Makefile no. 1" src="../../_images/makefile-no1.png" />
+<p><img alt="DAG for Makefile no. 1" src="figures/makefile-no1.png" />
 <small style="margin: 5pt auto; text-align: center; display: block;">The
 dependency graph for our first Makefile, created using
 <a class="reference external" href="https://github.com/lindenb/makefile2graph">makefile2graph</a>. Notice the
@@ -1443,7 +1436,7 @@ use the <code class="docutils literal notranslate"><span class="pre">-j</span></
 <p>The ability to build targets in parallel is quite useful when your project has
 many dependencies!</p>
 <p>The resulting PDF file should now look like this:</p>
-<p><img alt="Report with all genres" src="../../_images/make-report-all-genres.png" /><small
+<p><img alt="Report with all genres" src="figures/make-report-all-genres.png" /><small
 style="margin: 5pt auto; text-align: center; display: block;">A compressed
 view of the report with histograms for all genres.</small></p>
 </section>

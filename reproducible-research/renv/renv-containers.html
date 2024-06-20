@@ -73,7 +73,6 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'reproducible-research/renv/renv-containers';</script>
     <script src="../../_static/script.js"></script>
     <link rel="canonical" href="https://book.the-turing-way.org/reproducible-research/renv/renv-containers.html" />
-    <link rel="shortcut icon" href="../../_static/favicon-32x32.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Resources and Checklist" href="renv-resources.html" />
@@ -165,14 +164,8 @@
   
   
   
-    
-    
-      
-    
-    
-    <img src="../../_static/logo-detail-with-text.svg" class="logo__image only-light" alt="The Turing Way - Home"/>
-    <script>document.write(`<img src="../../_static/logo-detail-with-text.svg" class="logo__image only-dark" alt="The Turing Way - Home"/>`);</script>
   
+    <p class="title logo__title">The Turing Way</p>
   
 </a></div>
         <div class="sidebar-primary-item">
@@ -192,7 +185,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../../index.html">
-                    Welcome
+                    Kenny Edonds
                 </a>
             </li>
         </ul>
@@ -1112,7 +1105,7 @@ However, this leaves a user vulnerable to similar security issues as described i
 The best advice for using images built by others is, as usual, only download and run something on your machine if it comes from a trusted source.
 Docker Hub has “official image” badges for commonly used, verified images as shown here:</p>
 <figure class="align-default" id="docker-official-image">
-<img alt="A screenshot of official image badges" src="../../_images/docker-official-image.png" />
+<img alt="A screenshot of official image badges" src="figures/docker-official-image.*" />
 </figure>
 </section>
 <section id="installing-docker">
@@ -1242,7 +1235,7 @@ For example it can be used to include files hosted online by following <code cla
 It is good practice to use <code class="docutils literal notranslate"><span class="pre">COPY</span></code>, except where <code class="docutils literal notranslate"><span class="pre">ADD</span></code> is specifically required, as the term <code class="docutils literal notranslate"><span class="pre">COPY</span></code> is more explicit about what is being done.</p>
 <p>Here is what happens if a container is opened from an image called <code class="docutils literal notranslate"><span class="pre">book_example</span></code>, built from the example above:</p>
 <figure class="align-default" id="container-example">
-<img alt="A screenshot of what happens when a container is opened from an image" src="../../_images/container-example.png" />
+<img alt="A screenshot of what happens when a container is opened from an image" src="figures/container-example.*" />
 </figure>
 <p>As you can see, the directory <code class="docutils literal notranslate"><span class="pre">project</span></code> has been created, and inside the project files, <code class="docutils literal notranslate"><span class="pre">analysis.py</span></code> and <code class="docutils literal notranslate"><span class="pre">data.csv</span></code> have been copied into it.
 Because the Dockerfile already includes the software required for the project, in the image, the <code class="docutils literal notranslate"><span class="pre">analysis.py</span></code> script runs without installing more software.</p>
@@ -1269,7 +1262,7 @@ Here is a simple example of a Dockerfile that uses <code class="docutils literal
 </pre></div>
 </div>
 <figure class="align-default" id="workdir-example">
-<img alt="Screenshot of container generated using WORKDIR command" src="../../_images/workdir-example.png" />
+<img alt="Screenshot of container generated using WORKDIR command" src="figures/workdir-example.*" />
 </figure>
 <p>Directories <code class="docutils literal notranslate"><span class="pre">B_1</span></code> and <code class="docutils literal notranslate"><span class="pre">B_2</span></code> have been created within directory <code class="docutils literal notranslate"><span class="pre">A</span></code>.</p>
 <p><code class="docutils literal notranslate"><span class="pre">WORKDIR</span></code> should be used when changing directories is necessary while building an image.
@@ -1279,7 +1272,7 @@ After each <code class="docutils literal notranslate"><span class="pre">RUN</spa
 As an example, here is what happens in the above example if the <code class="docutils literal notranslate"><span class="pre">WORKDIR</span> <span class="pre">A</span></code> line is swapped
 for <code class="docutils literal notranslate"><span class="pre">RUN</span> <span class="pre">cd</span> <span class="pre">A</span></code>.</p>
 <figure class="align-default" id="cd-example">
-<img alt="A screenshot of what happens when the WORKDIR command is swapped with RUN cd" src="../../_images/cd-example.png" />
+<img alt="A screenshot of what happens when the WORKDIR command is swapped with RUN cd" src="figures/cd-example.*" />
 </figure>
 <p>All the directories have are in the top level in this case, rather than <code class="docutils literal notranslate"><span class="pre">B_1</span></code> and <code class="docutils literal notranslate"><span class="pre">B_2</span></code> being inside <code class="docutils literal notranslate"><span class="pre">A</span></code>.
 This is because the image was restarted after the <code class="docutils literal notranslate"><span class="pre">RUN</span> <span class="pre">cd</span> <span class="pre">A</span></code> command and opened at the top (root) level by default, so that is where the
