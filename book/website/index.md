@@ -1,17 +1,23 @@
 (welcome)=
-# Welcome
+# Kenny Edonds
 
-*Welcome to The Turing Way handbook to reproducible, ethical and collaborative data science.*
+*[Vocal Production](https://abbeyroadinstitute.com.au/blog/what-is-a-vocal-producer/#:~:text=If%20the%20role%20of%20the,and%20emotion%20of%20the%20song.)*
 
-_The Turing Way_ project is open source, open collaboration, and community-driven.
-We involve and support a diverse community of contributors to make data science accessible, comprehensible and effective for everyone.
-Our goal is to provide all the information that researchers, data scientists, software engineers, policymakers, and other practitioners in academia, industry, government and the public sector need to ensure that the projects they work on are easy to reproduce and reuse.
+Let's talk Babyface
 
 ```{admonition} Top Tip
 :class: tip
-_The Turing Way_ is not meant to be read from start to finish.
-Start with a concept, tool or method that you need now, in your current work.
-Browse the different guides that make up the book, or use the search box to search for whatever you would like to learn about first.
+_Kenny "Babyface" Edmonds_ is a legendary figure in the music industry, and his contributions are multifaceted and profound. Here are two standout qualities that define his work:
+
+1. **Attention to Detail in Vocal Productions**:
+    - **Rich Background Vocals**: Babyface is known for his meticulous approach to vocal layering. He often recruits 3-5 other artists or layers his own voice to create a lush, textured sound. This technique adds depth and richness to the tracks, creating a fuller and more immersive listening experience. The layered vocals provide a harmony that a single voice, no matter how exceptional, could never achieve alone.
+    - **Elevating Artist Performance**: By incorporating multiple voices in the background, Babyface not only enhances the track's quality but also accentuates the lead artist's performance. His ability to blend these vocals seamlessly ensures that the background complements and enhances the main performance, rather than overshadowing it.
+
+2. **Storytelling Approach to Pop**:
+    - **Emotional Narratives**: Unlike the typical catchy phrases that dominate pop music, Babyface's songwriting is characterized by its storytelling. He weaves intricate narratives of love, heartbreak, and relationships, making his songs deeply relatable and memorable. This storytelling approach adds layers of meaning to his music, inviting listeners to engage with the lyrics on a more personal level.
+    - **Relatable and Realistic Themes**: Babyface's songs often reflect the complexities of real-life relationships. His ability to capture the subtleties of human emotions and experiences in his lyrics sets him apart in the pop genre. This realism and relatability make his music resonate with a wide audience, allowing listeners to see their own stories reflected in his songs.
+
+Babyface's meticulous attention to detail in vocal production and his rare storytelling approach to pop music have solidified his reputation as a masterful artist and producer. His ability to craft songs that are both sonically rich and emotionally compelling ensures his lasting influence in the music industry.
 ```
 
 All stakeholders from any level of experience or domain expertise are encouraged to use _The Turing Way_ to understand their roles and responsibility of reproducibility in data science and research.
