@@ -1,5 +1,5 @@
 (welcome)=
-# Kenny Edonds
+# Kenny Edmonds
 
 *[Vocal Production](https://abbeyroadinstitute.com.au/blog/what-is-a-vocal-producer/#:~:text=If%20the%20role%20of%20the,and%20emotion%20of%20the%20song.)*
 
@@ -25,17 +25,15 @@ You can inspect our resources on [GitHub](https://github.com/the-turing-way/the-
 
 In the {ref}`Foreword Section<fw>` of this book, we provide meta-level information about _The Turing Way_, including guidance on how to use and navigate this project, how to cite the book and opportunities to get involved.
 
-```{figure} figures/theturingway-pathway.*
+```{figure} https://babyfacemusic.com/wp-content/themes/babyface/dist/img/IMG_9751%20UPDATED%20No%20Image.jpg
 ---
 name: welcome-image
 alt: The Turing Way project is illustrated as a road or path with shops for different data science skills. People can go in and out with their shopping cart and pick and choose what they need.
 ---
-_The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+_Babyface_ showing off his accollades. [babyfacemusic.com](https://babyfacemusic.com)
 ```
 
-The book is collaboratively written and built in the open from the start.
-You can explore different opportunities to get involved on the [start page](https://the-turing-way.start.page/).
-Join [our Slack Workspace](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw) to connect and discuss your ideas and [subscribe to our newsletter](https://buttondown.email/turingway) to follow updates from our community.
+community.
 
 ## Different Pathways
 

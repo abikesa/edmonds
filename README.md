@@ -1,6 +1,6 @@
-<a href="https://book.the-turing-way.org/welcome.html"><img src="book/website/figures/logo-detail-with-text.svg?raw=true)" width="180" align="Right" /></a>
+<a href="https://book.the-turing-way.org/welcome.html"><img src="https://ew.com/thmb/Y8eOEQzKD6RrQfSS_6lGy5tHwqg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Babyface-performs-01-super-bowl-2023-dbd20de0a9cc4229a219e066bb929a2f.jpg" width="800" align="Right" /></a>
 
-# _The Turing Way_
+# _Babyface_
 
 >_This README.md file in also available in Chinese ([README-Chinese](README-translated/README-Chinese.md)), Dutch ([README-Dutch](README-translated/README-Dutch.md)), French ([README-French.md](README-translated/README-French.md)), German ([README-German.md](README-translated/README-German.md)), Indonesian ([README-Indonesian](README-translated/README-Indonesian.md)), Italian ([README-Italian](README-translated/README-Italian.md)), Korean ([README-Korean](README-translated/README-Korean.md)), Portuguese ([README-Portuguese](README-translated/README-Portuguese.md)), and Spanish ([README-Spanish](README-translated/README-Spanish.md)) (listed alphabetically)._
 
